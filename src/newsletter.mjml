@@ -1,0 +1,62 @@
+<mjml>
+  <mj-head>
+    <mj-title>Email Template Demo</mj-title>
+    <mj-preview>Responsive newsletter template (MJML)</mj-preview>
+    <mj-attributes>
+      <mj-all font-family="Helvetica, Arial, sans-serif" />
+      <mj-text color="#111827" font-size="16px" line-height="24px" />
+      <mj-section padding="0px" />
+      <mj-column padding="0px" />
+      <mj-button background-color="#dc2626" border-radius="10px" font-weight="700" />
+    </mj-attributes>
+    <mj-style>
+      .muted { color: #6b7280; }
+      .card { background: #ffffff; border: 1px solid #e5e7eb; border-radius: 16px; }
+    </mj-style>
+  </mj-head>
+
+  <mj-body background-color="#f9fafb">
+    <!-- Header -->
+    <mj-section padding="24px 16px">
+      <mj-column>
+        <mj-text font-size="20px" font-weight="800">Agency Newsletter</mj-text>
+        <mj-text css-class="muted">A clean, responsive email template built with MJML.</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Hero / intro card -->
+    <mj-section padding="0px 16px 16px">
+      <mj-column css-class="card" padding="16px">
+        <mj-text font-size="22px" font-weight="800">New updates this week</mj-text>
+        <mj-text css-class="muted">
+          This template demonstrates a typical agency-style newsletter: header, hero, 2-column content, CTA, and footer.
+        </mj-text>
+        <mj-button href="https://example.com">View the update</mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Two-column section (stacks on mobile automatically) -->
+    <mj-section padding="0px 16px 16px">
+      <mj-column css-class="card" padding="16px">
+        <mj-text font-weight="800">Feature A</mj-text>
+        <mj-text css-class="muted">Short description of the first feature. Keep it concise and scannable.</mj-text>
+      </mj-column>
+
+      <mj-column css-class="card" padding="16px">
+        <mj-text font-weight="800">Feature B</mj-text>
+        <mj-text css-class="muted">Short description of the second feature. This column will stack on mobile.</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Footer -->
+    <mj-section padding="24px 16px">
+      <mj-column>
+        <mj-divider border-color="#e5e7eb" />
+        <mj-text font-size="12px" css-class="muted">
+          You’re receiving this email because you signed up.<br/>
+          Unsubscribe • Preferences
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

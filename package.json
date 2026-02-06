@@ -1,0 +1,24 @@
+{
+  "name": "email-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "mjml src/newsletter.mjml -o dist/newsletter.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AliChegini/email-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/AliChegini/email-template/issues"
+  },
+  "homepage": "https://github.com/AliChegini/email-template#readme",
+  "devDependencies": {
+    "mjml": "^4.18.0"
+  }
+}
