@@ -7,6 +7,9 @@ Responsive newsletter email template built with **MJML** and compiled to HTML.
 - Mobile responsiveness (MJML columns stack automatically)
 - Practical agency workflow: source in `src/`, compiled output in `dist/`
 
+## Live demo
+GitHub Pages: *(https://alichegini.github.io/email-template/)*
+
 ## Build
 ```bash
 npm install
